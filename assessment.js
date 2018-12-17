@@ -22,7 +22,7 @@ var trueFaveNum = faveNum == 7;
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
-var notHakeem = myName == "Hakeem Olajuwon";
+var notHakeem = (myName == "Hakeem Olajuwon");
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
 var canDrive;
@@ -51,6 +51,7 @@ var responseCreator = function(param){
     default:
     colorResponse = "What is your favorite color?"
   }
+  return colorResponse;
 }
 
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
